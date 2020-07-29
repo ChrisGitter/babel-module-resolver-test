@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "rootDir": ".",
+    "pretty": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

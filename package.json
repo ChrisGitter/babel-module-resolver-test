@@ -1,0 +1,23 @@
+{
+  "name": "babel-module-resolver-test",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.7",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
+    "core-js": "^3.6.5"
+  }
+}
